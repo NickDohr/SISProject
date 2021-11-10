@@ -20,15 +20,15 @@ public class ShowingParentsGPA {
 				System.out.println();
 			}
 			
-			else if(runSIS.listOfStudents.get(studentChoice - 1).getGpa() <= 3.50)
-			{
-				System.out.println((d.format(runSIS.listOfStudents.get(studentChoice - 1).getGpa() + .5)));
-			}
-			
 			else if(runSIS.listOfStudents.get(studentChoice - 1).getGpa() <= 3.00)
 			{
 				System.out.print((d.format(runSIS.listOfStudents.get(studentChoice - 1).getGpa() + 1)));
 				System.out.println();
+			}
+			
+			else if(runSIS.listOfStudents.get(studentChoice - 1).getGpa() <= 3.50)
+			{
+				System.out.println((d.format(runSIS.listOfStudents.get(studentChoice - 1).getGpa() + .5)));
 			}
 			
 			else
