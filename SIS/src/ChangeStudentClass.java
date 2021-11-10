@@ -179,7 +179,7 @@ public class ChangeStudentClass
 						{
 							System.out.println("What do you want to change this grade to?");
 							String changeGrade = userStringInput.nextLine();
-							runSIS.listOfStudents.get(studentChoice - 1).setFirstperiod(changeGrade);
+							runSIS.listOfStudents.get(studentChoice - 1).setFirstgrade(changeGrade);
 							System.out.println("That grade has been changed");
 							System.out.println("Where do you want to go next");
 							System.out.println("(1) - Return to Main Menu");
@@ -198,7 +198,7 @@ public class ChangeStudentClass
 						{
 							System.out.println("What do you want to change this grade to?");
 							String changeGrade = userStringInput.nextLine();
-							runSIS.listOfStudents.get(studentChoice - 1).setSecondperiod(changeGrade);
+							runSIS.listOfStudents.get(studentChoice - 1).setSecondgrade(changeGrade);
 							System.out.println("That grade has been changed");
 							System.out.println("Where do you want to go next");
 							System.out.println("(1) - Return to Main Menu");
@@ -218,7 +218,7 @@ public class ChangeStudentClass
 						{
 							System.out.println("What do you want to change this grade to?");
 							String changeGrade = userStringInput.nextLine();
-							runSIS.listOfStudents.get(studentChoice - 1).setThirdperiod(changeGrade);
+							runSIS.listOfStudents.get(studentChoice - 1).setThirdgrade(changeGrade);
 							System.out.println("That grade has been changed");
 							System.out.println("Where do you want to go next");
 							System.out.println("(1) - Return to Main Menu");
